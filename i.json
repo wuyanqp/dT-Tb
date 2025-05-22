@@ -7,7 +7,7 @@
 "searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
 "ext": "./豆瓣.js"},
-{"key": "csp_LocalFile","name": "🤖本机文件🤖","type": 3,"api": "csp_LocalFile"},
+{"key": "csp_LocalFile","name": "🤖本机文件🤖","type": 3,"api": "csp_LocalFile","jar": "./gai.jar"},
 
 ////（jar)
 {"key": "盒子","name": "📦电影盒子(json)","type": 3,"api": "csp_XYQHiker",
