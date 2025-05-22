@@ -35,16 +35,6 @@
 "ext": "./json/剧圈影视.json"
 },
 
-{"key": "农民","name": "🦄农民影视(json)","type": 3,"api": "csp_XYQHiker",
-"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
-"ext": "./json/农民影视.json"
-},
-
-{"key": "爱看","name": "🦄爱看影视(json)","type": 3,"api": "csp_XYQHiker",
-"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
-"ext": "./json/爱看影视.json"
-},
-
 {"key": "骚火","name": "🦄骚火影视(json)","type": 3,"api": "csp_XYQHiker",
 "timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "ext": "./json/骚火影视.json"
@@ -53,6 +43,11 @@
 {"key": "八号","name": "🦄八号影视(json)","type": 3,"api": "csp_XYQHiker",
 "timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "ext": "./json/八号影视.json"
+},
+
+{"key": "爱看","name": "🦄爱看影视(json)","type": 3,"api": "csp_XYQHiker",
+"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
+"ext": "./json/爱看影视.json"
 },
 
 {"key": "风车","name": "🦄风车动漫(json)","type": 3,"api": "csp_XYQHiker",
@@ -75,11 +70,6 @@
 "ext": "./json/嗷呜动漫.json"
 },
 
-{"key": "动漫","name": "🦄动漫巴士(json)","type": 3,"api": "csp_XYQHiker",
-"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
-"ext": "./json/动漫巴士.json"
-},
-
 {"key": "低端","name": "🦄低端影视","type": 3,"api": "csp_Ddys",
 "timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1
 },
@@ -88,9 +78,7 @@
 "timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1
 },
 
-{"key":"快看","name": "🦄快看影视","type":3,"api":"csp_Kuaikan",
-"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1
-},
+
 
 ////
 ////(js)
@@ -159,7 +147,7 @@
 "ext": "./js/北川影视.js"
 },
 
-{"key": "美视影视","name": "🦄美视影视(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
+{"key": "美视","name": "🦄美视影视(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
  "api": "./drpy2.min.js",
 "ext": "./js/美视影视.js"
 },
@@ -169,14 +157,14 @@
 "ext": "./js/蛋蛋影视.js"
 },
 
-{"key": "动漫","name": "🦄动漫岛(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
+{"key": "动漫","name": "🦄动漫巴士(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
-"ext": "./js/动漫岛.js"
+"ext": "./js/动漫巴士.js"
 },
 
 {"key": "139","name": "🦄139影视(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
-"ext": "./js/哔哩视频.js"
+"ext": "./js/139影视.js"
 },
 
 {"key": "348","name": "🦄348影视(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
@@ -184,32 +172,30 @@
 "ext": "./js/348影视.js"
 },
 
-
-
-//(可看不可搜)
-{"key": "爱看","name": "🦄爱看机器┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
-"api": "./drpy2.min.js",
-"ext": "./js/爱看机器.js"
-},
-
-{"key": "快看","name": "🦄快看┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
+{"key": "快看","name": "🦄快看影视(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
 "ext": "./js/快看影视.js"
 },
 
-{"key": "bt","name": "🦄bt┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
+{"key": "农民","name": "🦄农民影视(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
-"ext": "./js/bt影视.js"
+"ext": "./js/农民影视.js"
 },
+
+
+
+
+
+//(可看不可搜)
 
 {"key": "爱迪","name": "🦄爱迪┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
 "ext": "./js/爱迪影视.js"
 },
 
-{"key": "农民","name": "🦄农民┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
+{"key": "bt","name": "🦄bt┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
 "api": "./drpy2.min.js",
-"ext": "./js/农民影视.js"
+"ext": "./js/bt影视.js"
 },
 
 {"key": "6v","name": "🦄新6v┃可看不可搜(js)","type": 3,"timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,
